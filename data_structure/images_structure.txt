@@ -1,0 +1,4 @@
+# image values
+vector_data = { imagename  : vector}
+# image descriptions
+data = {id: [imagename, DESC]}
