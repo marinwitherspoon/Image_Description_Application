@@ -3,8 +3,8 @@
 
 Folder Descriptions
 
-1. data_structure
 
+data_structure
   1. captions.txt --> images with description.
   2. data_process --> gettign the images and descrption in desirable format.
   3. captions.json --> images with captions with required format.
