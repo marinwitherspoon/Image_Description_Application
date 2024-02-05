@@ -1,7 +1,6 @@
 # Image_Description_Application
 
-
-Folder Descriptions
+Folder Descriptions and Access
 
 
 data_structure
