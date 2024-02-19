@@ -1,4 +1,8 @@
 # image values
 vector_data = { imagename  : vector}
+
 # image descriptions
 data = {id: [imagename, DESC]}
+
+# metadata.jsonl files  (required for huggingface model finetuning)
+{"file_name": "0001.png", "additional_feature": "This is a first value of a text feature you added to your images"}
