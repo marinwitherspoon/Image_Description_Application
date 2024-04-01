@@ -36,7 +36,7 @@ def main():
     st.write("Created by Surabhi Kulkarni, Sumit Hawal and Marin Witherspoon for the DS5500 Capstone Class at Northeastern.")
 
     # Upload image
-    image = st.file_uploader("Upload Image to Generate a Caption", type=["jpg", "jpeg", "png"])
+    image = st.file_uploader("Upload Image and then Click Generate Below to Get a Caption", type=["jpg", "jpeg", "png"])
 
     if image is not None:
         # Display uploaded image
