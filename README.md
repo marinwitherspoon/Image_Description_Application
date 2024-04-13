@@ -17,12 +17,16 @@ The Flickr 3k and 8k datasets and model files were too large to upload to Github
 - Flickr 8k model: https://drive.google.com/file/d/1_fRVYBHAeC7HS76b9OFqiVS9mIWUwUYj/view?usp=sharing
 - Flickr 8k optimizer state: https://drive.google.com/file/d/13tzP2ti7x3sxAR__GvT2f3PZH-EP2_k6/view?usp=sharing
 
+In order to create and structure the data to be compatible with HuggingFace load_dataset function, Data_Formatting.ipynb was used. 
+
 This repository is maintained by Surabhi Kulkarni, Marin Witherspoon and Sumit Hawal for the DS 5500 Capstone Class at Northeastern University
 
-Folder Descriptions and Access
 
+Other files that are reflective of our work/effort but not directly pertinent to the final deliverables of the project:
 
-data_structure
+- User_Interface.ipynb (initial attempt at user interface)
+- data_Cleaning.ipynb (initial data cleaning process)
+- data_structure (initial preprocessed data structure)
   1. captions.txt --> images with description.
   2. data_process --> gettign the images and descrption in desirable format.
   3. captions.json --> images with captions with required format.
