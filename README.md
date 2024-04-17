@@ -13,7 +13,8 @@ The following files correspond to the finetuning process and inference process r
 ## Main Application
 Finally, the Flickr8k model was selected to use for a simple user interface build with Streamlit version 1.24.0. Upon launching the application (UI_Image_caption.py), the user can upload an image and the model is used to generate a caption for the user. The files for the finetuned model must be present in the same directory as the user interface.
 
-### Requirements to run UI_Image_Caption.py
+### Requirements for UI_Image_Caption.py
+-Python 3.0 or higher
 - streamlit version 1.24.0
 - torch
 - transformers
