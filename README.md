@@ -13,15 +13,15 @@ Main Application
 Finally, the Flickr8k model was selected to use for a simple user interface build with Streamlit version 1.24.0. Upon launching the application (UI_Image_caption.py), the user can upload an image and the model is used to generate a caption for the user. The files for the finetuned model must be present in the same directory as the user interface.
 
 Requirements to run UI_Image_Caption.py
-streamlit version 1.24.0
-torch
-transformers
-accelerate
-PIL 
+- streamlit version 1.24.0
+- torch
+- transformers
+- accelerate
+- PIL 
 
 
 Instructions to run UI_Image_Caption.py
-streamlit run UI_Image_Caption.py
+- streamlit run UI_Image_Caption.py
 
 The Flickr 3k and 8k datasets and model files were too large to upload to Github so links are provided ffor access:
 - Flickr3k dataset: https://drive.google.com/drive/folders/1lwqk9jd1oVHMIe2NiUxD68zKU2mjd6F4?usp=drive_link
