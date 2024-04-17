@@ -1,5 +1,6 @@
 # Image_Description_Application
 
+## Intro
 This project experimented with image description generation using the Microsoft GIT Base model found on huggingFace. The datasets used for experimentation consist of Flickr3k, Flickr8k and Instagram Images with Captions. 
 
 For each dataset, a model was fine tuned and then in a seperate notebook, inference was performed and ROUGE score was calculated against the test set. 
@@ -12,7 +13,7 @@ The following files correspond to the finetuning process and inference process r
 ## Main Application
 Finally, the Flickr8k model was selected to use for a simple user interface build with Streamlit version 1.24.0. Upon launching the application (UI_Image_caption.py), the user can upload an image and the model is used to generate a caption for the user. The files for the finetuned model must be present in the same directory as the user interface.
 
-Requirements to run UI_Image_Caption.py
+### Requirements to run UI_Image_Caption.py
 - streamlit version 1.24.0
 - torch
 - transformers
@@ -22,9 +23,10 @@ Requirements to run UI_Image_Caption.py
 - os
 
 
-Instructions to run UI_Image_Caption.py
+### Instructions to run UI_Image_Caption.py
 - streamlit run UI_Image_Caption.py
 
+## Datasets and Model Access
 The Flickr 3k and 8k datasets and model files were too large to upload to Github so links are provided ffor access:
 - Flickr3k dataset: https://drive.google.com/drive/folders/1lwqk9jd1oVHMIe2NiUxD68zKU2mjd6F4?usp=drive_link
 - Flickr 8k dataset: https://drive.google.com/drive/folders/1k_NC7LSjQIpwCQJeItHLUR6M2FbYAdAM?usp=sharing
@@ -35,7 +37,7 @@ In order to create and structure the data to be compatible with HuggingFace load
 
 This repository is maintained by Surabhi Kulkarni, Marin Witherspoon and Sumit Hawal for the DS 5500 Capstone Class at Northeastern University
 
-
+## Other Files
 Other files that are reflective of our work/effort but not directly pertinent to the final deliverables of the project:
 
 - User_Interface.ipynb (initial attempt at user interface)
