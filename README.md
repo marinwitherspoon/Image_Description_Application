@@ -17,7 +17,9 @@ Requirements to run UI_Image_Caption.py
 - torch
 - transformers
 - accelerate
-- PIL 
+- PIL
+- numpy
+- os
 
 
 Instructions to run UI_Image_Caption.py
