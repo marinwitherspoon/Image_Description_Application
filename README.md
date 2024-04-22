@@ -1,7 +1,9 @@
 # Image_Description_Application
 
 ## Intro
-This project experimented with image description generation using the Microsoft GIT Base model found on huggingFace. The datasets used for experimentation consist of Flickr3k, Flickr8k and Instagram Images with Captions. 
+This project experimented with image description generation using the Microsoft GIT Base model found on huggingFace. The datasets used for experimentation consist of Flickr3k, Flickr8k and Instagram Images with Captions. The project was completed for the DS 5500 Capstone course at Northeastern University. The associated presentation and report can be found here:
+- Presentation: https://docs.google.com/presentation/d/1u5zgncmTSZsogR3xFwPXQGiTthZVAmayaInu0S-TXRk/edit?usp=sharing
+- Report: https://drive.google.com/file/d/188hHUFhoDpFyPs5w6_HCpUvQAO8SdrGZ/view?usp=sharing 
 
 For each dataset, a model was fine tuned and then in a seperate notebook, inference was performed and ROUGE score was calculated against the test set. 
 
